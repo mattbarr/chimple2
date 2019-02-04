@@ -81,27 +81,27 @@ public class Bezier extends Demo {
 			
 		for (int i=0; i<numPoints; i++) {
 			// Anchor points of bezier - stay in window
-			//int x1 = (int) ((chimpRand("x1"+i) * (width + 1)));
-		    //int y1 = (int) ((chimpRand("y1"+i) * (height + 1)));
+			int x1 = (int) ((chimpRand("x1"+i) * (width + 1)));
+		    int y1 = (int) ((chimpRand("y1"+i) * (height + 1)));
 
-			int x1 = (int) ((chimpNormal("x1"+i, .5, .25) * (width + 1)));
-			int y1 = (int) ((chimpNormal("y1"+i, .5, .25) * (height + 1)));
-			
-			if (x1 < 0){
-				x1 = 0;
-			};
-
-			if (x1 > width){
-				x1 = width;
-			};
-
-			if (y1 < 0){
-				y1 = 0;
-			};
-
-			if (y1 > height){
-				y1 = height;
-			};
+//			int x1 = (int) ((chimpNormal("x1"+i, .5, .25) * (width + 1)));
+//			int y1 = (int) ((chimpNormal("y1"+i, .5, .25) * (height + 1)));
+//
+//			if (x1 < 0){
+//				x1 = 0;
+//			};
+//
+//			if (x1 > width){
+//				x1 = width;
+//			};
+//
+//			if (y1 < 0){
+//				y1 = 0;
+//			};
+//
+//			if (y1 > height){
+//				y1 = height;
+//			};
 
 			//Control points of bezier - larger area
 		    //int x2 = (int) ((chimpRand("x2"+i) * 2*(width + 1)-width/2));
